@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap);
+
+html{
+    font-size: 82.5%;
+    box-sizing: border-box;
+}
+
+*, *::before, *,::after{
+    box-sizing: inherit;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    line-height: 1.5%;
+    font-family: "Poppins, sans serif";
+    color: black;
+}
+
+#hero {
+min-height: 100vh;
+position:relative
+ }
+button {
+display: inline-block;
+border: none;
+height: 50px;
+border-radius: 30px;
+padding: 10px 0;
+width: 200px;
+background-color: beige;
+font-size: 1.4rem;
+color: black;
+font-weight: 500;
+font-family: Poppins;
+
+transition: 150ms;
+margin-top: 500px;
+margin-left: 50px;
+position: relative;
+z-index: 2;
+}
+a{ 
+text-decoration: none;
+color: black;
+}
+    
+button{
+outline: none;
+
+}
+
+button:hover {
+transform: translate(0, -5px);
+background-color: #E8C39E;
+}
+
+ video {
+position: absolute;
+top: 0;
+left:0;
+width: 100%;
+height: 100%;
+object-fit:cover;
+ }
+
+ .capa{
+ position: absolute;
+top: 0%;
+left: 0%;
+width: 100%;
+height: 100%;
+background: black;
+opacity: 0.5;
+mix-blend-mode: overlay;
+ }
